@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #0044cc;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+select {
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#resultado {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #0044cc;
+    border-radius: 5px;
+    background-color: #e9f4ff;
+    width: 80%;
+    text-align: center;
+}
+
+#resultado strong {
+    color: #0044cc;
+    font-size: 1.1em;
+}
